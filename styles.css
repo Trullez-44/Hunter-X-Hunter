@@ -1,9 +1,9 @@
 .title{
-    background-color: green; color: rgb(0, 0, 0);display: inline-block; margin-top: 0em;
+    color: rgb(0, 114, 9);display: inline-block; margin-top: 0em;
 }
 a{
     text-decoration: none;
 }
-body{
+header{
     background-color: blanchedalmond;
 }
