@@ -9,17 +9,18 @@ html{font-family: 'ZCOOL QingKe HuangYou', sans-serif;}
   width: 100%;
   height: 100%;
   z-index: -1;
-  position: absolute;
+  position: fixed;
 }
 
 header {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 13vh;
-  background-color: rgba(0, 0, 0, 0.795);
-  padding:0 190px;
+  top: 1.1em;
+  left: 2.9em;
+  width: 95%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.902);
+  padding:0 8.7em;
+  border-radius: 80px;
 }
 nav{
   width: 100%;
@@ -28,15 +29,15 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-.fondo{
-  position: relative;
-  top: 13vh;
+.pic{
+
   width: 80%;
-  height: 85vh;
-  margin: 0 auto;
+  height: 90vh;
+  margin: 20px auto;
   background-image: url(../wp1809274-hunter-hunter-wallpapers.jpg);
   background-size: cover;
   background-position: center center;
+  border-radius: 10px;
 }
 /* .fondo{
     z-index: 10;
@@ -85,14 +86,13 @@ header{
   }
 .navigation-items {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 .navigation-items > a.ancla_header {
 /* Animación y modificación del estilo de las anclas */
   color: white;
   text-decoration: none;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 26px;
   font-family: 'ZCOOL QingKe HuangYou', sans-serif;
 }
 .navigation-items > a.ancla_header::before{
@@ -109,3 +109,92 @@ header{
 .navigation-items > a.ancla_header:hover::after, a.ancla_header:hover::before {
   width: 100%;
 } 
+.solid_section{
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  height: 50em;
+  width: 90%;
+  border-radius: 10px;
+  /* z-index:1; */
+  /* border-radius: 10px */
+  margin: 5em auto;
+}
+.testing > h1, h2{
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+}
+.black_div{
+  background-color: rgba(0, 0, 0, 0.644);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 200px;
+}
+.card{
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  position: relative;
+}
+
+.card-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .card-body{
+  right: 0;
+}
+
+.card-title{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.card-sub-title{
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-info{
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.card-btn{
+  color: #1f3d47;
+  background: #8fabba;
+  padding: 10px 20px;
+  width: 120px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
