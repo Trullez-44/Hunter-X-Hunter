@@ -110,12 +110,14 @@ header{
   width: 100%;
 } 
 .solid_section{
+  padding: 1rem;
+  
   text-align: center;
-  background-color: rgb(27, 27, 27);
+  background-color: rgba(255, 255, 255, 0.788);
   height: 50em;
   width: 90%;
   border-radius: 10px;
-  /* z-index:1; */
+  z-index:1;
   /* border-radius: 10px */
   margin: 5em auto;
 }
@@ -126,16 +128,17 @@ header{
 .black_div{
   background-color: rgba(0, 0, 0, 0.644);
   position: absolute;
-  z-index: -1;
   width: 100%;
   height: 200px;
 }
+/* CARDS */
 .card{
-  width: 320px;
+  margin: 1rem auto;
+  width: 80%;
   height: 500px;
   border-radius: 20px;
   overflow: hidden;
-  border: 8px solid #fff;
+  border: 8px solid #000000;
   position: relative;
 }
 
@@ -152,15 +155,24 @@ header{
   top: 0;
   right: -100%;
   position: absolute;
-  background: #1f3d4738;
+  background: #060c0e;
   backdrop-filter: blur(5px);
-  border-radius: 15px;
+  border-radius: 10px;
   color: #fff;
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  transition: 2s;
+  /* justify-content: 10px ; */
+  transition: 0.8s;
+}
+.card-body img{
+  position: fixed;
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+  margin: auto 3.5em;
+  z-index: -1;
+  filter: opacity(0.4) blur(4px) brightness(50%);
 }
 
 .card:hover .card-body{
@@ -168,8 +180,9 @@ header{
 }
 
 .card-title{
+  font-family: 'Kanit', sans-serif;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 3em;
   font-weight: 500;
 }
 
@@ -180,6 +193,7 @@ header{
 }
 
 .card-info{
+  font-family: 'Kanit', sans-serif;
   font-size: 16px;
   line-height: 25px;
   margin: 40px 0;
@@ -198,3 +212,4 @@ header{
   font-weight: 500;
   cursor: pointer;
 }
+/* CARDS */
