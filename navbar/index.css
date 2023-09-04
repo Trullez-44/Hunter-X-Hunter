@@ -114,10 +114,11 @@ min-height: 100%;
 background-color: rgb(75, 75, 75);
 border-radius: 10px;
 padding:2vw ;
+margin: 1vh;
 }
 .wrapper img{
   max-width: 400px;
-  min-height: 350px;
+  min-height: 300px;
   border-radius: 10px;
   float: left;
   margin: 0 10px;
