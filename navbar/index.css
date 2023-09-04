@@ -69,7 +69,7 @@ nav{
   }
 .navigation-items {
   display: flex;
-  gap: 2rem;
+  gap: calc(1rem + 1vw);
 }
 .navigation-items > a.ancla_header {
 /* Animación y modificación del estilo de las anclas */
@@ -98,10 +98,12 @@ nav{
 a{
   text-decoration: none;
 }
+
 .story_div img{
   border-radius: 10px;
-  max-width: 1000px;
-  min-height: 500px;
+  max-width: calc(100% - 20px);
+  max-height: 400px;
+  min-height: 300px;
   margin: 1vw;
 }
 /* #ayuda_no_se_q_poner{
@@ -117,7 +119,8 @@ padding:2vw ;
 margin: 1vh;
 }
 .wrapper img{
-  max-width: 400px;
+  /* min-width: 400px; */
+  max-width: calc(100% - 20px);
   min-height: 300px;
   border-radius: 10px;
   float: left;
