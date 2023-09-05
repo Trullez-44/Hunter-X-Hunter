@@ -34,7 +34,6 @@ Este proyecto se desarrolló utilizando las siguientes tecnologías:
 
 - **HTML5:** Se utiliza para estructurar el contenido de las páginas web.
 - **CSS3:** Se emplea para el diseño y el estilo de la página, incluyendo la disposición de elementos y la apariencia visual.
-- 
 ## Bibliografía
 Páginas web que fueron de ayuda en el proceso de diseño y desarollo del proyecto:
 - https://hunterxhunter.fandom.com/es/wiki/Wiki_Hunter_%C3%97_Hunter
